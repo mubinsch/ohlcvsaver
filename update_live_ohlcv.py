@@ -6,7 +6,7 @@ import polars as pl
 from get_ohlcv import get_lf_ohlcv
 
 # === CONFIGURATION ===
-SYMBOL = "XAUUSD"       
+SYMBOL = "btc"       
 TF = "1"                
 TIMEZONE = "utc+3:30"   
 LIVE_WINDOW_ROWS = 1440 # 24 hours of 1m data
