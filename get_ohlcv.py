@@ -221,8 +221,8 @@ def _fetch_single_lf_symbol(
 
         params = {
             "symbol": norm_symbol,
-            # "resolution": base_tf,
-            "tf": base_tf,
+            "resolution": base_tf,
+            # "tf": base_tf,
             "from": str(current_from),
             "to": str(current_to),
         }
